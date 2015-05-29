@@ -1,0 +1,41 @@
+$facebook-blue: #3c5a99;
+$google-plus-red: #dc4a38;
+
+.contributer-signup {
+    max-width: 400px;
+
+    .contributer-connect {
+        @include flexbox(row, nowrap, flex-start, center);
+        color: white;
+        background: black;
+        font-size: 1.2em;
+        position: relative;
+        margin: 20px 0;
+        padding: 7px 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        &:hover {
+            color: white;
+        }
+        svg {
+            height: 30px;
+            margin-right: 10px;
+        }
+    }
+    .contributer-facebook-login-button {
+        background: $facebook-blue;
+        &:hover {
+            background: darken($facebook-blue, 10%);
+        }
+    }
+    .contributer-google-login-button {
+        background: $google-plus-red;
+        &:hover {
+            background: darken($google-plus-red, 10%);
+        }
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+    }
+}

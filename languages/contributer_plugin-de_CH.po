@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contributer-plugin\n"
+"POT-Creation-Date: 2015-05-26 09:48+0100\n"
+"PO-Revision-Date: 2015-05-26 09:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\quizolo.local\\wp-content\\plugins"
+"\\contributer-plugin\n"
+"X-Poedit-SearchPath-1: C:\\xampp\\htdocs\\contributer\\wp-content\\plugins"
+"\\contributer-plugin\n"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:153
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:154
+msgid "Contributer Panel"
+msgstr "Contributer Panel"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:162
+msgid "General"
+msgstr "Allgemein"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:167
+msgid "Redirect after login"
+msgstr "Weiterleitung nach Login"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:169
+msgid ""
+"Redirect url is place where user will be transfered after loggin is "
+"successfull. Homepage is default."
+msgstr ""
+"Das ist die Seite auf die der User weitergeleitet wird, nachdem der Login "
+"erfolgreich war. Home ist default."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:174
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:176
+msgid "Allow post publishing without registration/login"
+msgstr "Erlaube Posting ohne Registration/Login"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:181
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:184
+msgid "Assign Author"
+msgstr "Autorzuordnung"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:193
+msgid "Google reCaptcha Site Key"
+msgstr "Google reCaptcha Site Key"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:195
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:206
+msgid ""
+"Strongly recommended to use google reCapcha if you want to allow public "
+"posting. https://www.google.com/recaptcha/admin"
+msgstr ""
+"Wir empfehlen die Benutzung von google reCaptcha wenn Gastposting ohne Login "
+"erlaubt ist. https://www.google.com/recaptcha/admin"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:204
+msgid "Google reCaptcha Secret Key"
+msgstr "Google reCaptcha Secret Key"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:215
+msgid "Embed video into the content"
+msgstr "Video in den Inhalt einbetten"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:217
+msgid ""
+"Activate this if your theme&apos;s video post type does not feature a "
+"\"video URL\" custom field"
+msgstr ""
+"Aktiviere dies falls dein Theme kein benutzerdefiniertes Eingabefeld für die "
+"\"Video URL\" hat"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:231
+msgid "Socials"
+msgstr "Social Network Einstellungen"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:236
+#, fuzzy
+msgid "Facebok APP id"
+msgstr "Facebook URL"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:238
+msgid "Please insert your facebook app id if you want to use facebook login."
+msgstr "Falls Facebook Login verwendet werden soll, füge die App ID ein."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:243
+msgid "Facebok APP secret"
+msgstr "Facebook APP secret"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:245
+msgid ""
+"Please insert your facebook app secret if you want to use facebook login."
+msgstr ""
+"Falls Facebook Login verwendet werden soll, kommt das Facebook App Secret "
+"hier rein"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:250
+msgid "Google APP id"
+msgstr "Google APP id"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:252
+msgid "Please insert your google app id if you want to use google+ login."
+msgstr "Falls Google+ Login verwendet werden soll"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:257
+msgid "Google APP secret"
+msgstr "Google APP secret"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:259
+msgid "Please insert your google app secret if you want to use google+ login."
+msgstr "Falls Google+ Login verwendet werden soll"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:267
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:272
+#, fuzzy
+msgid "Profile Page"
+msgstr "Profilbild"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:274
+msgid ""
+"Copy &amp; Paste this shortcode into the place where you want the profile "
+"settings page to be rendered"
+msgstr ""
+"Copy &amp; Paste diesen Shortcode an den Ort, an dem du die Profil "
+"Einstellungen einfügen möchtest"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:279
+#, fuzzy
+msgid "Contributing Page"
+msgstr "Contributer Panel"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/Contributer.php:281
+msgid ""
+"Copy &amp; Paste this shortcode into the place where you want the "
+"contributing form to be rendered"
+msgstr ""
+"Copy &amp; Paste diesen Shortcode an den Ort, an dem du das Gastposting "
+"Formular einfügen möchtest"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:49
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1035
+#, fuzzy
+msgid "You are not allowed to add post. Please try again later."
+msgstr "Etwas ist schief gelaufen. Bitte versuche es später noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:50
+msgid "The enetered captcha was not correct. Please try again"
+msgstr "Captcha war nicht korrekt. Bitte versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:72
+msgid "Saving"
+msgstr "Speichere"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:95
+msgid "Title"
+msgstr "Titel"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:110
+msgid "Post Format"
+msgstr "Post Format"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:112
+msgid "Standard"
+msgstr "Standard"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:127
+msgid "Featured image"
+msgstr "Beitragsbild"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:131
+msgid "Click to select a different image"
+msgstr "Klicke um ein anderes Bild auszuwählen"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:133
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:148
+msgid "drag 'n' drop"
+msgstr "Drag 'n' Drop"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:141
+msgid "Gallery images"
+msgstr "Gallerie Bilder"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:145
+msgid "Click to select different images"
+msgstr "Klicke um andere Bilder auszuwählen"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:157
+#, fuzzy
+msgid "Video URL"
+msgstr "Website URL"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:163
+msgid "Content"
+msgstr "Inhalt"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:177
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:183
+msgid "Category"
+msgstr "Kategorie"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:189
+msgid "Choose your Category"
+msgstr "Wähle eine Kategorie"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:208
+msgid "Save draft"
+msgstr "Speichere Entwurf"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1036
+#, fuzzy
+msgid "Post title is empty. Please insert post title and try again."
+msgstr ""
+"Ungültige E-Mail Adresse. Gib eine gültige Adresse ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1037
+#, fuzzy
+msgid "Post content is empty. Please insert post content and try again."
+msgstr ""
+"Du hast keinen Anzeigenamen eingegeben. Bitte gib den Namen ein, der "
+"angezeigt werden soll und versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1038
+msgid "You need to upload at least one image in order to publish a gallery."
+msgstr ""
+"Du musst mindestens ein Bild hochladen, um eine Gallerie zu veröffentlichen"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1039
+msgid "Post saved with warnings:"
+msgstr "Beitrag wurde mit Warnung gespeichert"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1040
+msgid "Post saved"
+msgstr "Beitrag gespeichert"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1041
+msgid "Upload of images failed"
+msgstr "Bildupload war nicht erfolgreich"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1042
+msgid "We were not able to upload your image"
+msgstr "Wir konnten dein Bild nicht hochladen"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1043
+msgid "Featured image:"
+msgstr "Beitragsbild:"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1044
+msgid "Image:"
+msgstr "Bild:"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1045
+msgid "Your draft was saved and will be reviewed."
+msgstr "Entwurf wurde gespeichert und wird überprüft"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1046
+#, fuzzy
+msgid "Invalid video url. Please insert valid video url and try again."
+msgstr ""
+"Ungültige Website URL. Bitte gib eine gültige Webadresse ein und versuche es "
+"erneut"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1047
+#, fuzzy
+msgid "Video url is empty. Please insert video url and try again."
+msgstr ""
+"Ungültige Website URL. Bitte gib eine gültige Webadresse ein und versuche es "
+"erneut"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-contribute.php:1048
+msgid "Featured image is required for image posts."
+msgstr "Beitragsbild wird für Bild-Beiträge benötigt"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-login.php:54
+msgid "Please wait"
+msgstr "Bitte warten"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-login.php:89
+msgid "This site does not allow new User Registration."
+msgstr "Diese Seite erlaubt keine Neuregistration für Benutzer"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:33
+#, fuzzy
+msgid "Something went wrong. Please try again later."
+msgstr "Etwas ist schief gelaufen. Bitte versuche es später noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:34
+#, fuzzy
+msgid "Invalid email. Please insert a valid email address and try again."
+msgstr ""
+"Ungültige E-Mail Adresse. Gib eine gültige Adresse ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:35
+#, fuzzy
+msgid ""
+"The email you inserted already exists. Please choose another email address "
+"and try again."
+msgstr ""
+"Die eigegebene E-Mail Adresse existiert bereits. Bitte wähle eine andere "
+"Adresse und versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:36
+#, fuzzy
+msgid ""
+"You did not insert a display name. Please insert your display name and try "
+"again."
+msgstr ""
+"Du hast keinen Anzeigenamen eingegeben. Bitte gib den Namen ein, der "
+"angezeigt werden soll und versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:37
+msgid ""
+"Invalid display name. Please insert different display name and try again."
+msgstr ""
+"Ungültiger Anzeigename. Bitte gib einen anderen ein und versuche es erneut"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:38
+#, fuzzy
+msgid "Invalid site URL. Please insert a valid site URL and try again."
+msgstr ""
+"Ungültige Website URL. Bitte gib eine gültige Webadresse ein und versuche es "
+"erneut"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:39
+#, fuzzy
+msgid "Invalid facebook URL. Please insert a valid facebook URL and try again."
+msgstr ""
+"Ungültige Facebook URL. Gib eine gültige Facebook URL ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:40
+#, fuzzy
+msgid "Invalid twitter URL. Please insert a valid twitter URL and try again."
+msgstr ""
+"Ungültige Twitter URL. Bitte gib eine gültige Twitter URL ein und versuche "
+"es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:41
+#, fuzzy
+msgid "Invalid flickr URL. Please insert a valid flickr URL and try again."
+msgstr ""
+"Ungültige Flickr URL. Bitte gib eine gültige Flickr URL ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:42
+msgid "User updated."
+msgstr "Benutzer aktualisiert"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:43
+#, fuzzy
+msgid "Upload directory is not writeable. Please contact an administrator."
+msgstr ""
+"Upload Ordner kann nicht berabeitet werden. Bitte kontaktiere einen "
+"Administrator."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:44
+msgid "Uploading service is currently unavailable. Please try again later."
+msgstr ""
+"Uploading Service is im Moment nicht erreichbar. Bitte versuche es später "
+"noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:45
+msgid "Image successfully uploaded."
+msgstr "Bild erfolgreich hochgeladen."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:102
+msgid "Updating profile"
+msgstr "Aktualisiere Profil"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:113
+msgid "Profile Picture"
+msgstr "Profilbild"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:124
+msgid "Make sure to upload a square image for best-looking results."
+msgstr ""
+"Stelle sicher, dass du ein quadratisches Bild hochlädst, für beste Resultate."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:130
+msgid "Profile Information"
+msgstr "Profil Information"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:138
+msgid "Bio"
+msgstr "Bio"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:143
+msgid "Email"
+msgstr "E-Mail"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:148
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:153
+msgid "Website URL"
+msgstr "Website URL"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:158
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:163
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/class-contributer-profile.php:168
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:24
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:57
+msgid "Username"
+msgstr "Benutzername"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:29
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:62
+msgid "Password"
+msgstr "Passwort"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:33
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:37
+msgid "Don't have an account yet?"
+msgstr "Du hast noch keinen Account?"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:38
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:71
+msgid "Sign Up."
+msgstr "Registriere dich."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:52
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:67
+msgid "Password again"
+msgstr "Passwort, erneut"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:75
+msgid "Already have an account?"
+msgstr "Du hast schon einen Account?"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:76
+msgid "Sign In."
+msgstr "Anmelden."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:92
+msgid "Invalid username or password. Please try again."
+msgstr "Ungültiger Benutzername oder Passowrt. Bitte versuche es erneut"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:93
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-facebook-login.php:128
+#, fuzzy
+msgid "Registration failed. Please try again."
+msgstr "Etwas ist schief gelaufen. Bitte versuche es später noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:94
+#, fuzzy
+msgid "Email field is empty. Please insert email and try again."
+msgstr ""
+"Ungültige E-Mail Adresse. Gib eine gültige Adresse ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:95
+msgid "Invalid email. Please insert valid email and try again."
+msgstr ""
+"Ungültige E-Mail Adresse. Gib eine gültige Adresse ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:96
+#, fuzzy
+msgid ""
+"Email you inserted already exists. Please insert another email and try again."
+msgstr ""
+"Die eigegebene E-Mail Adresse existiert bereits. Bitte wähle eine andere "
+"Adresse und versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:97
+#, fuzzy
+msgid "Username field is empty. Please insert username and try again."
+msgstr ""
+"Ungültige E-Mail Adresse. Gib eine gültige Adresse ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:98
+#, fuzzy
+msgid "Invalid username. Please try again."
+msgstr ""
+"Ungültige E-Mail Adresse. Gib eine gültige Adresse ein und versuche es "
+"erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:99
+#, fuzzy
+msgid ""
+"Username you inserted already exists. Please insert another username and try "
+"again."
+msgstr ""
+"Die eigegebene E-Mail Adresse existiert bereits. Bitte wähle eine andere "
+"Adresse und versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:100
+msgid "Your password needs to contain at least 4 characters."
+msgstr "Dein Passwort muss mindestens 4 Zeichen lang sein."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:101
+msgid "The password and confirmation password do not match."
+msgstr "Passwort und Passwortwiederholung stimmen nicht überein."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-email-login.php:102
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-facebook-login.php:129
+#, fuzzy
+msgid "Something wrong happened. Please try again later."
+msgstr "Etwas ist schief gelaufen. Bitte versuche es später noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-facebook-login.php:37
+msgid "Login with Facebook"
+msgstr "Mit Facebook Anmelden"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-facebook-login.php:127
+msgid "We were not able to retrieve facebook user. Please try again."
+msgstr "Keine Facebook Userdaten erhalten. Bitte versuche es erneut."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-facebook-login.php:130
+#, fuzzy
+msgid "Registration is not allowed at this moment. Please try again later."
+msgstr "Etwas ist schief gelaufen. Bitte versuche es später noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/classes/login/class-google-login.php:55
+msgid "Login with Google"
+msgstr "Mit Google Anmelden"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/modules/sensei-options/class-sensei-admin-panel.php:58
+msgid "Are you sure? This will reset all options for this tab."
+msgstr "Bist du sicher? Die setzt alle Optionen dieses Reiters zurück."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/modules/sensei-options/class-sensei-admin-panel.php:59
+msgid "Something is wrong. Please try again later."
+msgstr "Etwas ist schief gelaufen. Bitte versuche es später noch einmal."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/modules/sensei-options/class-sensei-admin-panel.php:60
+msgid "Are you sure? This will reset all options."
+msgstr "Bist du sicher? Dies setzt alle Optionen zurück."
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/modules/sensei-options/class-sensei-admin-panel.php:108
+msgid "Save"
+msgstr "Speichern"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/modules/sensei-options/class-sensei-admin-panel.php:110
+msgid "Reset tab"
+msgstr "Reiter zurücksetzen"
+
+#: C:\xampp\htdocs\contributer\wp-content\plugins\contributer-plugin/framework/modules/sensei-options/class-sensei-admin-panel.php:111
+msgid "Reset all"
+msgstr "Zurücksetzen"

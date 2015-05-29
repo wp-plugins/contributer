@@ -1,0 +1,188 @@
+How to include
+**********************************************************************************************************************
+Using sensei options is really easy.
+You just need to require this file inside your functions.php file or inside plugin files
+
+After files are included, you just need to call 
+new Sensei_Admin_Panel( $url, $args )
+$url - this url represents an url location of Sensei_Admin_Panel. So url, where sensei-options.php file resides
+        using this url we will be able to load css and js properly
+$args - this is an array, which will have:
+     $args['page'] - reprensets admin page parameters
+     $args['tabs'] - tabs for that page
+     $args['tabs']['options'] - options which will rside within specific tab
+ 
+There is no need to provide any kind of additional explanation, except to provide you demo of $args.
+Enjoy!
+
+
+
+Total options: 4
+
+
+OPTIONS MANUAL
+**********************************************************************************************************************
+
+TEXT OPTION
+---------------------------
+type 'text'
+
+id			- required		- string		- option id
+name		- required		- string		- option title (label)
+desc		- optional		- string		- option description
+value		- optional		- string		- option default value
+condition	- optional		- array			- a condition which will enable/disable this option
+								keys:
+								'type' => 'option' or 'custom'
+								'value' => 'name_of_option' or 'function'
+								'disabled_type' => 'disabled' or 'hidden' (disabled by default)
+example:
+array(
+	'name' => 'Some kind of label for field',
+	'id' => 'option_id',
+	'desc'  => 'Full option description',
+	'type'  => 'text',
+	'value'   => '',
+	'condition' => array(
+		'type' => 'option',
+		'value' => 'option_id_from_which_depends'
+	)
+)
+
+
+
+
+
+CHECKBOX OPTION
+---------------------------
+type 'checkbox'
+
+id			- required		- string		- option id
+name		- required		- string		- option title (label)
+desc		- optional		- string		- option description
+value		- optional		- tinyint(0/1)	- option default value
+condition	- optional		- array			- a condition which will enable/disable this option
+								keys:
+								'type' => 'option' or 'custom'
+								'value' => 'name_of_option' or 'function'
+								'disabled_type' => 'disabled' or 'hidden' (disabled by default)
+example:
+array(
+	'name' => 'Some kind of label for field',
+	'id' => 'option_id',
+	'desc'  => 'Full option description',
+	'type'  => 'checkbox',
+	'value'   => false,
+	'condition' => array(
+		'type' => 'option',
+		'value' => 'option_id_from_which_depends'
+	)
+),
+
+
+
+
+
+WYSIWYG/RICH TEXT EDITOR
+---------------------------
+type 'wysiwyg'
+
+id			- required		- string		- option id
+name		- required		- string		- option title (label)
+desc		- optional		- string		- option description
+value		- optional		- string		- option default value
+condition	- optional		- array			- a condition which will enable/disable this option
+								keys:
+								'type' => 'option' or 'custom'
+								'value' => 'name_of_option' or 'function'
+								'disabled_type' => 'disabled' or 'hidden' (disabled by default)
+example:
+array(
+	'name' => 'Some kind of option name (label)',
+	'id' => 'some_kind_of_option_id',
+	'desc'  => 'Some kind of option descriptioon',
+	'type'  => 'wysiwyg',
+	'value'   => 'test',
+	'condition' => array(
+		'type' => 'option',
+		'value' => 'option_id_as_dependece'
+	)
+),
+
+
+
+
+
+SELECT OPTION
+---------------------------
+type 'select'
+
+id			- required		- string		- option id
+name		- required		- string		- option title (label)
+desc		- optional		- string		- option description
+value		- optional		- string		- option default value
+options	    - required		- array			- options which will be displayed within select box
+							    format: key => value
+condition	- optional		- array			- a condition which will enable/disable this option
+								keys:
+								'type' => 'option' or 'custom'
+								'value' => 'name_of_option' or 'function'
+								'disabled_type' => 'disabled' or 'hidden' (disabled by default)
+example:
+array(
+	'name' => 'My Select Option',
+	'id' => 'my_select_option',
+	'type' => 'select',
+	'desc' => 'This is our option',
+	'options' => array(
+		'1' => 'Option one',
+		'2' => 'Option two',
+		'3' => 'Option three',
+	),
+	'value' => '2',
+	'condition' => array(
+		'type' => 'option',
+		'value' => 'option_id_as_dependece'
+	)
+),
+
+
+
+
+
+SELECT POSTS
+---------------------------
+type 'select_posts'
+
+id				- required		- string						- option id
+name			- required		- string						- option title (label)
+desc			- optional		- string						- option description
+value			- optional		- int(pageid)					- option default value
+post_type		- optional		- post type (default is post)	- post type
+taxonomy		- optional		- string						- type of taxonomy ('category', 'tag' or some kind of custom taxonomy) (default:category)
+taxonomy_ids	- optional		- array							- taxonomy ids
+condition		- optional		- array							- a condition which will enable/disable this option
+								keys:
+								'type' => 'option' or 'custom'
+								'value' => 'name_of_option' or 'function'
+								'disabled_type' => 'disabled' or 'hidden' (disabled by default)
+example:
+array(
+	'name' => 'Select a page',
+	'id' => 'option_id_here',
+	'type' => 'select_posts',
+	'desc' => 'This page will be the page where user will be redirected after he/she clicks on the link which we are going to send to their email.',
+	'post_type' => 'post',
+	'taxonomy_ids' => array(2, 3),
+	'condition' => array(
+		'type' => 'option',
+		'value' => 'option_name_as_condition'
+	)
+),
+
+
+
+
+
+SELECT CATEGORIES
+---------------------------

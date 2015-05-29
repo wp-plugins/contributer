@@ -1,0 +1,23 @@
+// TOOLBOX COLORS
+//---------------------------------------------------------------------
+$white: #FDFDFD;
+$black: #202020;
+$darkgray: #333;
+
+// PROJECT COLORS
+//---------------------------------------------------------------------
+// DigitalMind
+$dm-blue: #005899; // rgb(0, 88, 153)
+$dm-gray: #5E5E5E; // rgb(94, 94, 94)
+
+$accent: #E91E63;
+
+// Palette
+$color-1: $dm-blue;
+$color-2: desaturate(lighten($dm-blue, 10%), 30%); // rgb(31, 113, 173)
+$color-3: mix($dm-blue, $dm-gray); // rgb(47, 91, 123)
+$color-4: adjust-hue($dm-blue, -20deg); // rgb(0, 139, 153)
+$color-5: adjust-hue($dm-blue, -10deg); // rgb(0, 113, 153)
+$color-6: invert($dm-gray); // rgb(161, 161, 161)
+$color-7: complement($dm-gray); // rgb(94, 94, 94)
+$color-8: adjust-hue($dm-blue, 5deg); // rgb(0, 75, 153)
